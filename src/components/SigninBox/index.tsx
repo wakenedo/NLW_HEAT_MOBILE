@@ -6,7 +6,7 @@ import { COLORS } from '../../theme';
 
 import { styles } from './styles';
 
-export function SigninBox() {
+export function SignInBox() {
     const { signIn, isSigningIn } = useAuth();
 
     return (
